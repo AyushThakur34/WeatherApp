@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const searchButton = document.querySelector(".search-button");
 
     // initial variables
-    const API_key = "5dc48ebe53a6985db45d785a31efb547";
+    const API_key = "YOUR_API_KEY";
     let currTab = userTab;
     currTab.classList.add("curr-tab")
     grantAccess.classList.add("active");
